@@ -1,12 +1,51 @@
-# React + Vite
+# EMS Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** part of the EMS (Employee Management System) project, built with **React.js** using **Vite**, and styled using **Bootstrap**. It communicates with a Spring Boot backend via REST APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- React.js (with Vite)
+- Axios (for API calls)
+- Bootstrap (for UI styling)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 How to Run the Frontend
+
+### ✅ Prerequisites
+
+- Node.js and npm installed
+- Backend running on `http://localhost:8080`
+
+### 🔄 Setup Steps
+
+1. Navigate to the frontend folder:
+
+   ```bash
+   cd ems-frontend
+
+   ```
+
+2. Install Dependencies
+
+   npm install
+
+3. Start the development server
+
+   npm run dev
+
+⚙️ Configuration
+Make sure the backend API base URL in your Axios configuration points to:
+
+📄 Features
+List all employees
+
+Add a new employee
+
+Update employee details
+
+Delete employee
+
+Responsive design using Bootstrap
